@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Webpage</title>
+
+</head>
+<body>
+  <header class="content">
+    <h1>Personal Information</h1>
+  </header>
+
+  <main class="content">
+    <section aria-labelledby="personal-details">
+      <div id="personal-details">
+        <p><strong>Name:</strong> Soromtochukwu Rex Ugwu.</p>
+
+        <img class="media-full" src="picture.jpg" alt="my picture">
+
+        <p><strong>Hobby:</strong> Exploring new delicacies has become one of my favorite hobbies.</p>
+        <p>I don't have a particular favorite type of music; however, I mostly listen to UK rap.</p>
+
+        <h5>Listen to Kat Slater(native Remedies) a UK rap</h5>
+        <audio controls>
+          <source src="Kat Slater (Native Remedies Remix) - Copy.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+
+    <article>
+      <h2>Why Web Development?</h2>
+      <p>Web development is a fascinating and ever-changing field. It demands creativity and problem-solving skills, and it empowers you to build something from nothing. It's a space where you can express your ideas, collaborate with people across the globe, and make a meaningful impact. You get to learn new things every day, work from anywhere, and even be your own boss. It offers the chance to earn a good living while having fun, being innovative, and contributing to something bigger than yourself. It's a field that brings pride, joy, and fulfillment.</p>
+    </article>
+
+    
+      <p><em>A short video</em></p>
+      <video class="media-full" controls>
+        <source src="my video.mp4" type="video/mp4">
+      </video>
+    
+    <aside aria-label="Map of Tokyo" title="Map of Tokyo">
+      <p>Below is map of Tokyo, Japan. one of the most advanced sity in the world.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662975.6739309328!2d138.45029058835456!3d35.50429397601672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sng!4v1759677600585!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Tokyo"></iframe>
+    </aside>
+
+  </main>
+<details>
+  <summary>Contact Me(click to open)</summary>
+  <aside class="content" aria-labelledby="contact-heading">
+    <article>
+      <h2 id="contact-heading">Contact Form</h2>
+      
+      <form id="contact-form" method="post" action="#" class="contact-form" >
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+        
+       <div>
+        <br>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        
+       </div>
+
+       <div>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel" pattern="+0-9" placeholder="+(000)00000000">
+       </div>
+   
+       <div>
+        <br>
+        <fieldset>
+          <legend> Gender</legend>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label ><input type="radio" name="gender" value="female"> Female</label>
+          <label ><input type="radio" name="gender" value="other"> Other</label>
+        </fieldset>
+       </div>
+
+       <div>
+        <br> 
+        <label for="country">Country</label>
+        <select id="country" name="country" >
+          <option value="">Select country</option>
+          <option value="China">China</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Japan">Japan</option>
+          <option value="Nigeria">Nigeria</option> 
+          <option value="United Kingdom">United Kingdom</option>
+        </select>
+       </div>
+       <div>
+        <label for="note">Note</label><br>
+        <textarea id="note" name="note" rows="4" placeholder="Additional details, feedback or message"></textarea>
+       </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </article>
+  </aside>
+</details>
+
+  <footer class="content">
+    <p>&#64;  Soromtochukwu Rex Ugwu 2025 Genesys Upskill</p>
+  </footer>
+</body>
+</html>
+
+
